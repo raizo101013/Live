@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robiul.Store - Premium Website Templates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Robiul.Store</div>
+        <a href="https://instagram.com/SK_RI_250" target="_blank" class="instagram-link">📸 Instagram</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Get Your Dream Website</h1>
+        <p>Premium Templates for Students & Creators</p>
+        <button class="cta-btn" onclick="scrollToProducts()">View Products ⬇️</button>
+    </section>
+
+    <section class="products" id="products">
+        <h2 class="section-title">Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-icon">🎂</div>
+                <h3>The Magical Birthday Site</h3>
+                <p>A stunning website with photos, music, and a confetti game. Perfect gift for friends and loved ones!</p>
+                <div class="price">₹499</div>
+                <button class="buy-btn" onclick="openModal('Birthday Website', '499')">Buy Now</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-icon">🎮</div>
+                <h3>The Gamer Portfolio</h3>
+                <p>Stand out with a portfolio featuring a playable 2D game character. Perfect for YouTubers & Gamers!</p>
+                <div class="price">₹699</div>
+                <button class="buy-btn" onclick="openModal('Gamer Portfolio', '699')">Buy Now</button>
+            </div>
+
+            <div class="product-card">
+                <div class="product-icon">💼</div>
+                <h3>The Pro Student Resume</h3>
+                <p>Professional portfolio website to impress teachers and land internships. Stand out from the crowd!</p>
+                <div class="price">₹499</div>
+                <button class="buy-btn" onclick="openModal('Student Resume', '499')">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made with 💙 by Robiul | Class 11 Student Developer</p>
+        <p>© 2026 Robiul.Store. All rights reserved.</p>
+    </footer>
+
+    <div class="modal" id="orderModal">
+        <div class="modal-content">
+            <h2>Order via Instagram DM! 📩</h2>
+            <p id="modalText"></p>
+            <p style="color: #00ffff; font-weight: bold;">Send me "ORDER" on Instagram to get started!</p>
+            <button class="close-btn" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<nav>
+    <div class="logo">Robiul.Store</div>
+    <div class="nav-links">
+        <a href="https://instagram.com/SK_RI_250" target="_blank" class="instagram-link">📸 @SK_RI_250</a>
+    </div>
+</nav>
+
+<footer>
+    <div class="footer-content">
+        <h3>Contact Me</h3>
+        <p>Need a custom website? DM or Email me!</p>
+        
+        <div class="contact-buttons">
+            <a href="https://instagram.com/SK_RI_250" target="_blank" class="contact-btn insta">
+                📸 DM on Instagram
+            </a>
+            
+            <a href="mailto:robiulislam786786u@gmail.com" class="contact-btn email">
+                📧 Send Email
+            </a>
+        </div>
+    </div>
+    
+    <p class="copyright">Made with 💙 by Robiul | © 2026 Robiul.Store</p>
+</footer>
